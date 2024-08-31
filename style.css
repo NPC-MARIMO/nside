@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.imageContainer{
+    width: 100vw;
+    height: 100vh;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87vw;
+    margin-left: 6.5vw;
+    height: 13vh;
+    overflow: hidden;
+}
+.navLeft{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 29vw;
+    justify-content: space-between;
+    padding: 0vw 2.5vw;
+}
+.navLeft h2{
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.navLeft i{
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 2;
+    opacity: .5;
+}
+.navRight{
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.navRight h4{
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 4px;
+    padding: 0 2vw;
+    text-transform: uppercase;
+    /* transform: translateY(280%); */
+}
+.nB{
+    display: flex;
+    align-items: center;
+    left: -84%;
+    gap: 1.2vw;
+    position : relative;
+    justify-content: space-evenly;
+}
+.navRightBorder{
+    width: 10vw;
+    height: 3vw;
+    opacity: .7;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    scale : 0;
+}
+.page1Data{
+    position: absolute;
+    top: 22%;
+    height: 80%;
+    color: #fff;
+    width: 100%;
+}
+.page1InsideInovation{
+    position: absolute;
+    left:7% ;
+    padding: .5vw;
+    overflow: hidden;
+}
+.page1InsideInovation h4{
+    font-size: 1.7vw;
+    /* transform: translateY(150%); */
+    font-weight: 400;
+}
+.page1H1{
+    position : absolute ;
+    left: 7%;
+    overflow: hidden;
+    /* background-color: rebeccapurple; */
+    top: 10%;
+}
+.page1H1 h1{
+    font-size: 5.7vw;
+    line-height: 6.5vw;
+    /* transform: translateY(95%); */
+}
+.page1BtnCall{
+    left: 8%;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 4.5vw;
+    width: 17vw;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.page1BtnCall h4{
+    font-size: .8vw;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.page1DownloadBtn{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    width: 7vw;
+    border : 1px solid #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    height: 7vw;
+}
+.page1DownloadBtn img{
+    font-size: .5vw;
+    opacity: .77;
+    font-weight: 100;
+}
+.page1BottomLeft{
+    height: 25vh;
+    bottom: 0%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    position: absolute;
+}
+.page1BL1{
+    height: 100%;
+    color: #7F8AA4;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #F3F6FC;
+}
+.page1BL1 h5{
+    font-weight: 400;
+    letter-spacing: 4px;
+    rotate: -90deg;
+}
+.page1BL2{
+    height: 100%;
+    position: absolute;
+    width: 85%;
+    left: 15%;
+    color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+.page1BL2 h5{
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.page1BL21 {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    justify-content: center;
+}
+.page1BL21 h3{
+    font-size: 1.5vw;
+}
+.page1BL21 img{
+    width: 2vw;
+    height: 2.1vw;
+    opacity: 0;
+}
+.divcontainer{
+    position : fixed ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.div{
+    height: 100%;
+    width: 33.34%;
+    border-right: 1px solid #93939342;
+    opacity: 1;
+    
+}
+.divInDiv{
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    opacity: 1;
+}
